@@ -20141,11 +20141,11 @@ cr.behaviors.Pin = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr,
-	cr.plugins_.Sprite,
-	cr.plugins_.SpriteFontPlus,
 	cr.plugins_.Text,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Touch,
+	cr.plugins_.SpriteFontPlus,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Sprite,
 	cr.behaviors.Pin,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.behaviors.Pin.prototype.acts.Pin,
